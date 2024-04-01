@@ -1013,7 +1013,7 @@ a:hover {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #000000;
+  background-color: #0078ff;
 }
 
 .portfolio-details .portfolio-info {
@@ -1088,6 +1088,7 @@ a:hover {
   margin: 0 auto;
   border-radius: 50%;
   line-height: 1.6;
+  opacity: .2;
 }
 
 @media (min-width: 768px) {
