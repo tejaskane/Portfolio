@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #4e4e4e;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -38,7 +38,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #0078ff;
+  color: #4e4e4e;
 }
 
 .color-d {
@@ -232,7 +232,7 @@ a:hover {
 .socials .ico-circle:hover {
   background-color: #4e4e4e;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px grey;
   transition: all 500ms ease;
 }
 
@@ -336,7 +336,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #4e4e4e;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -377,7 +377,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #4e4e4e;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -422,7 +422,7 @@ a:hover {
 
 .button-a {
   text-decoration: none;
-  background-color: #0078ff;
+  background-color: #4e4e4e;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -583,7 +583,7 @@ a:hover {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: #4e4e4e;
 }
 
 .navbar .dropdown:hover>ul {
@@ -688,7 +688,7 @@ a:hover {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #0078ff;
+  color: #4e4e4e;
 }
 
 .navbar-mobile .getstarted,
@@ -723,7 +723,7 @@ a:hover {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: #4e4e4e;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -804,7 +804,7 @@ a:hover {
 
 .hero-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #4e4e4e;
 }
 
 .hero-single .breadcrumb .breadcrumb-item:before {
@@ -855,7 +855,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: #4e4e4e;
 }
 
 /*--------------------------------------------------------------
@@ -873,7 +873,7 @@ a:hover {
   transition: all 500ms ease;
   color: #fff;
   background-color: #4e4e4e;
-  box-shadow: 0 0 0 10px #babbbd;
+  box-shadow: 0 0 0 10px gray;
 }
 
 .service-box .service-ico {
@@ -926,7 +926,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.5;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #4e4e4e;
 }
 
 .counter-num .counter {
@@ -967,17 +967,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #4e4e4e;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #4e4e4e;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #4e4e4e;
 }
 
 .work-content .w-like .num-like {
