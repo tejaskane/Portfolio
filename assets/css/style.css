@@ -170,6 +170,19 @@ a:hover {
   margin: 0 auto;
 }
 
+.line-mf2 {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+  margin: 0 auto;
+}
+.line-mf3 {
+  width: 70px;
+  height: 5px;
+  background-color: black;
+  margin: 0 auto;
+}
+
 /*--/ Title Left /--*/
 .title-box-2 {
   margin-bottom: 3rem;
