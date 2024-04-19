@@ -64,6 +64,12 @@ a:hover {
   box-shadow: 0 0 0 4px #cde1f8;
 }
 
+.card{
+  border: 10px solid grey;
+  margin-bottom: 10px;
+  border-radius: 3%;
+}
+
 .display-5 {
   font-size: 2.5rem;
   font-weight: 300;
