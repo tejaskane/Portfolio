@@ -124,6 +124,7 @@
     }
   }, true)
 
+  // Scroll anumation
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
   
@@ -141,6 +142,16 @@
   }
   
   window.addEventListener("scroll", reveal);
+
+  //hover animation
+
+  $(".card-project").mouseover(function(){
+    $(this).addClass("pressed");
+  });
+
+  $(".card-project").mouseout(function(){
+    $(this).removeClass("pressed");
+  });
 
   /**
    * Scrool with ofset on links with a class name .scrollto
@@ -247,3 +258,4 @@
   new PureCounter();
 
 })()
+

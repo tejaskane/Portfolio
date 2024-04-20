@@ -51,9 +51,9 @@ a:hover {
 }
 
 .box-shadow,
-.card-blog,
+.card-project,
 .work-box,
-.service-box,
+.hobby-box,
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -300,7 +300,7 @@ a:hover {
 .widget-tags ul,
 .widget-sidebar .list-sidebar,
 .box-comments .list-comments,
-.blog-wrapper .post-meta ul,
+.project-wrapper .post-meta ul,
 .list-ico,
 .socials ul {
   list-style: none;
@@ -918,9 +918,9 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Services
+# hobbies
 --------------------------------------------------------------*/
-.service-box {
+.hobby-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
@@ -928,38 +928,38 @@ a:hover {
   text-align: center;
 }
 
-.service-box:hover .ico-circle {
+.hobby-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
   background-color: #4e4e4e;
   box-shadow: 0 0 0 10px gray;
 }
 
-.service-box .service-ico {
+.hobby-box .hobby-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
 }
 
-.service-box .ico-circle {
+.hobby-box .ico-circle {
   transition: all 500ms ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
-.service-box .ico-circle i {
+.hobby-box .ico-circle i {
   line-height: 0;
   font-size: 40px;
 }
 
-.service-box .s-title {
+.hobby-box .s-title {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   padding: 0.4rem 0;
 }
 
-.service-box .s-description {
+.hobby-box .s-description {
   color: #4e4e4e;
 }
 
@@ -1239,6 +1239,10 @@ hr{
   background-color: #fff;
 }
 
+.pressed {
+  box-shadow: 0 0 20px white;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1338,19 +1342,19 @@ hr{
 }
 
 /*--------------------------------------------------------------
-# Blog
+# project
 --------------------------------------------------------------*/
 @media (min-width: 767px) {
-  .card-blog {
+  .card-project {
     margin-bottom: 3rem;
   }
 }
 
-.card-blog .card-body {
+.card-project .card-body {
   position: relative;
 }
 
-.card-blog .card-category-box {
+.card-project .card-category-box {
   position: absolute;
   text-align: center;
   top: -16px;
@@ -1360,7 +1364,7 @@ hr{
   overflow: hidden;
 }
 
-.card-blog .card-category {
+.card-project .card-category {
   display: inline-block;
   color: #fff;
   padding: 0 15px 5px;
@@ -1369,7 +1373,7 @@ hr{
   border-radius: 4px;
 }
 
-.card-blog .card-category .category {
+.card-project .card-category .category {
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
@@ -1378,27 +1382,27 @@ hr{
   margin-bottom: 0;
 }
 
-.card-blog .card-title {
+.card-project .card-title {
   font-size: 1.3rem;
   margin-top: 0.6rem;
 }
 
-.card-blog .card-description {
+.card-project .card-description {
   color: #4e4e4e;
 }
 
-.card-blog .post-author {
+.card-project .post-author {
   display: inline-block;
 }
 
-.card-blog .post-date {
+.card-project .post-date {
   color: #4e4e4e;
   display: inline-block;
   float: right;
 }
 
 /*--------------------------------------------------------------
-# Blog Single
+# project Single
 --------------------------------------------------------------*/
 .post-box,
 .form-comments,
@@ -1419,39 +1423,39 @@ hr{
   }
 }
 
-.blog-wrapper .article-title {
+.project-wrapper .article-title {
   font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  .blog-wrapper .article-title {
+  .project-wrapper .article-title {
     font-size: 1.9rem;
   }
 }
 
-.blog-wrapper .post-meta {
+.project-wrapper .post-meta {
   margin: 1rem 0;
 }
 
-.blog-wrapper .post-meta ul {
+.project-wrapper .post-meta ul {
   border-left: 4px solid #0078ff;
   margin-top: 1rem;
 }
 
-.blog-wrapper .post-meta ul li {
+.project-wrapper .post-meta ul li {
   display: inline-block;
   margin-left: 15px;
 }
 
-.blog-wrapper .post-meta ul a {
+.project-wrapper .post-meta ul a {
   color: #0078ff;
 }
 
-.blog-wrapper .post-meta ul span {
+.project-wrapper .post-meta ul span {
   color: #1e1e1e;
 }
 
-.blog-wrapper .blockquote {
+.project-wrapper .blockquote {
   border-left: 4px solid #0078ff;
   padding: 18px;
   font-style: italic;
