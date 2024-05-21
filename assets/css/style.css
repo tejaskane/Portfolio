@@ -520,7 +520,7 @@ a:hover {
 
 #header .logo a {
   color: #fff;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 1px white;
 }
 
 #header .logo img {
@@ -573,7 +573,7 @@ a:hover {
   letter-spacing: 0.4px;
   position: relative;
   text-transform: uppercase;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 1px white;
 }
 
 .navbar a i,
