@@ -520,6 +520,7 @@ a:hover {
 
 #header .logo a {
   color: #fff;
+  text-shadow: 0 0 5px black;
 }
 
 #header .logo img {
@@ -572,6 +573,7 @@ a:hover {
   letter-spacing: 0.4px;
   position: relative;
   text-transform: uppercase;
+  text-shadow: 0 0 5px black;
 }
 
 .navbar a i,
@@ -803,7 +805,7 @@ a:hover {
 }
 
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   left: 0px;
@@ -818,6 +820,7 @@ a:hover {
   font-weight: 600;
   font-size: 3rem;
   margin-left: 40%;
+  text-shadow: 0 0 5px black;
 }
 
 @media (min-width: 768px) {
@@ -830,6 +833,7 @@ a:hover {
   font-size: 1.5rem;
   font-weight: 600;
   margin-left: 45%;
+  text-shadow: 0 0 5px black;
 }
 
 @media (min-width: 768px) {
