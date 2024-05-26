@@ -820,7 +820,13 @@ a:hover {
   font-weight: 600;
   font-size: 3rem;
   margin-left: 40%;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 10px black;
+}
+
+.hero-title span {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
 }
 
 @media (min-width: 768px) {
@@ -833,7 +839,7 @@ a:hover {
   font-size: 1.5rem;
   font-weight: 600;
   margin-left: 45%;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 10px black;
 }
 
 @media (min-width: 768px) {
