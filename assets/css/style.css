@@ -4,7 +4,7 @@ body {
 }
 
 .your-div-class {
-  background-image: url("../img/bg-cl2.jpg");
+  background-image: url("../img/bg-cl33.jpg");
   min-height: 100vh;
   min-width: 100vw;
 }
@@ -819,7 +819,8 @@ a:hover {
   color: #ffffff;
   font-weight: 600;
   font-size: 3rem;
-  margin-left: 40%;
+  margin-left: 35%;
+  margin-top: 10%;
   text-shadow: 0 0 10px black;
 }
 
@@ -838,7 +839,8 @@ a:hover {
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-left: 45%;
+  margin-left: 40%;
+  margin-top: 1%;
   text-shadow: 0 0 10px black;
 }
 
