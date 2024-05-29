@@ -821,11 +821,12 @@ a:hover {
   font-size: 3rem;
   margin-left: 35%;
   margin-top: 10%;
-  text-shadow: 0 0 10px black;
+  text-shadow: 0 0 3px black;
+  font-family: "Honk", system-ui;
 }
 
 .hero-title span {
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-thickness: 3px;
   text-underline-offset: 7px;
 }
@@ -840,7 +841,8 @@ a:hover {
   font-size: 1.5rem;
   font-weight: 600;
   margin-left: 40%;
-  text-shadow: 0 0 10px black;
+  text-shadow: 0 0 3px black;
+  font-family: "Honk", system-ui;
 }
 
 @media (min-width: 750px) {
