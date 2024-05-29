@@ -5,7 +5,7 @@ body {
 
 @font-face {
   font-family: 'myHonk';
-  src: url(../fonts/Honk-Regular.ttf);
+  src: url(../fonts/Honk-Regular.ttf)
 }
 
 .your-div-class {
@@ -801,7 +801,6 @@ a:hover {
 .hero {
   height: 100vh;
   position: relative;
-  color: #fff;
 }
 
 .hero .hero-content {
@@ -821,7 +820,6 @@ a:hover {
 }
 
 .hero .hero-title {
-  color: #ffffff;
   font-weight: 600;
   font-size: 3rem;
   margin-left: 35%;
