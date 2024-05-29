@@ -854,6 +854,21 @@ a:hover {
   }
 }
 
+@media (max-width: 750px) {
+  .your-div-class {
+    background-image: url("../img/bg-cl34.jpg");
+    background-size: cover;
+  }
+
+  .hero .hero-title {
+    margin-top: -20%;
+  }
+
+  .hero .hero-subtitle {
+    margin-top: -3%;
+  }
+}
+
 .hero .text-slider-items {
   display: none;
 }
