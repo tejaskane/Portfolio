@@ -3,6 +3,11 @@ body {
   color: #4e4e4e;
 }
 
+@font-face {
+  font-family: 'myHonk';
+  src: url(../fonts/Honk-Regular.ttf);
+}
+
 .your-div-class {
   background-image: url("../img/bg-cl33.jpg");
   min-height: 100vh;
@@ -822,7 +827,7 @@ a:hover {
   margin-left: 35%;
   margin-top: 10%;
   text-shadow: 0 0 3px black;
-  font-family: "Honk", system-ui;
+  font-family: "myHonk", system-ui;
 }
 
 .hero-title span {
@@ -842,7 +847,7 @@ a:hover {
   font-weight: 600;
   margin-left: 40%;
   text-shadow: 0 0 3px black;
-  font-family: "Honk", system-ui;
+  font-family: "myHonk", system-ui;
 }
 
 @media (min-width: 750px) {
